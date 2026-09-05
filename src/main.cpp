@@ -198,7 +198,7 @@ int main() {
         iss >> token;
         if (token == "uci") {
             uciOutLine("id name Abyssal");
-            uciOutLine("id author Bùi Hoàng Bách");
+            uciOutLine("id author Bach Bui Hoang");
             uciOutLine("option name Hash type spin default 128 min 1 max 2048");
             uciOutLine("option name Threads type spin default 2 min 1 max 8");
             uciOutLine("option name Clear Hash type button");
