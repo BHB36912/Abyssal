@@ -14,7 +14,7 @@ time via `incbin`; no runtime files are needed.
 ## UCI options
 
 - `Hash` (1..2048 MB, default 128)
-- `Threads` (1..8, default 2, Lazy SMP)
+- `Threads` (1..8, default 1, Lazy SMP)
 - `Clear Hash`
 
 ## Supported `go` parameters
@@ -27,10 +27,12 @@ time via `incbin`; no runtime files are needed.
 `perft <d>`, `bench [d]`, `eval`, `verify` (zobrist + NNUE accumulator
 cross-check).
 
+## Author & Acknowledgements
+
+* **Author:** Developed by Bach Bui Hoang (BHB36912), a 13-year-old chess programming enthusiast.
+* **NNUE Training:** Pipeline design and training methodology inspired by https://github.org/A1exL1ang/NNUE-Trainer
+* **Training Data:** The embedded neural network was trained from scratch using public `.binpack` datasets provided by the Stockfish project.
+
 ## License
 
 Distributed under the **GNU General Public License v3.0**. See `LICENSE` for more details.
-
-### Credits & Acknowledgements
-* **NNUE Training:** Pipeline design and training methodology inspired by https://github.com/A1exL1ang/NNUE-Trainer
-* **Training Data:** The embedded neural network was trained from scratch using public `.binpack` datasets provided by the Stockfish project.
