@@ -27,9 +27,12 @@ time via `incbin`; no runtime files are needed.
 `perft <d>`, `bench [d]`, `eval`, `verify` (zobrist + NNUE accumulator
 cross-check).
 
-## Author & Acknowledgements
+## Author
 
-* **Author:** Developed by Bach Bui Hoang (BHB36912), a 13-year-old chess programming enthusiast.
+* **Developer:** Bach Bui Hoang (BHB36912), a 13-year-old chess programming enthusiast.
+
+## Credits & Acknowledgements
+
 * **NNUE Training:** Pipeline design and training methodology inspired by https://github.org/A1exL1ang/NNUE-Trainer
 * **Training Data:** The embedded neural network was trained from scratch using public `.binpack` datasets provided by the Stockfish project.
 
