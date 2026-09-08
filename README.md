@@ -33,7 +33,7 @@ cross-check).
 
 ## Credits & Acknowledgements
 
-* **NNUE Training:** Pipeline design and training methodology inspired by https://github.org/A1exL1ang/NNUE-Trainer
+* **NNUE Training:** Pipeline design and training methodology inspired by (https://github.com/A1exL1ang/NNUE-Trainer)
 * **Training Data:** The embedded neural network was trained from scratch using public `.binpack` datasets provided by the Stockfish project.
 
 ## License
