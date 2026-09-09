@@ -3,10 +3,6 @@
 UCI chess engine (C++20) with an embedded efficiently-updatable neural network
 evaluation.
 
-## Build
-
-    make -j
-
 Requires a 64-bit Linux toolchain with AVX/AVX2 support (g++ recommended).
 The network weights (`src/net.bin`) are embedded into the binary at compile
 time via `incbin`; no runtime files are needed.
